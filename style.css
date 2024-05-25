@@ -1,0 +1,20 @@
+.hero {
+  height: 560px;
+  background-color: #151515;
+}
+.desk {
+  padding: 100px 270px 0 270px;
+}
+
+@media screen and (max-width: 720px) {
+  /* Hero */
+  .hero {
+    height: 280px;
+  }
+
+  .desk {
+    text-size-adjust: 10%;
+    padding: 70px 12px 0 24px;
+    font-size: x-small;
+  }
+}
